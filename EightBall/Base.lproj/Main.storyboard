@@ -35,6 +35,13 @@
                                             <action selector="questionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iH-le-ScP"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfB-F5-hDB">
+                                        <rect key="frame" x="10" y="359" width="300" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="38"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -52,6 +59,9 @@
                             <constraint firstItem="lgI-Zn-bYo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xkL-4L-8DE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="bfB-F5-hDB" id="d3L-AV-1hT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
