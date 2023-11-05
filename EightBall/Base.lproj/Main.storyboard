@@ -26,18 +26,16 @@
                                             <constraint firstAttribute="width" constant="300" id="gZ2-71-FKm"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g26-bZ-xfl">
-                                        <rect key="frame" x="34" y="316" width="254" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g26-bZ-xfl">
+                                        <rect key="frame" x="33" y="316" width="254" height="35"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Answer my &quot;Yes/No&quot; Question"/>
                                         <connections>
                                             <action selector="questionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iH-le-ScP"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfB-F5-hDB">
-                                        <rect key="frame" x="10" y="359" width="300" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfB-F5-hDB">
+                                        <rect key="frame" x="124" y="359" width="72" height="52"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="38"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -46,7 +44,11 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="E9l-jb-4Oc" firstAttribute="centerX" secondItem="lgI-Zn-bYo" secondAttribute="centerX" id="Dwd-VL-8Mu"/>
+                                    <constraint firstItem="g26-bZ-xfl" firstAttribute="top" secondItem="E9l-jb-4Oc" secondAttribute="bottom" constant="8" id="NBn-C9-rBt"/>
                                     <constraint firstItem="E9l-jb-4Oc" firstAttribute="top" secondItem="lgI-Zn-bYo" secondAttribute="top" constant="8" id="QXb-OL-81D"/>
+                                    <constraint firstItem="bfB-F5-hDB" firstAttribute="top" secondItem="g26-bZ-xfl" secondAttribute="bottom" constant="8" id="mYx-5N-iV8"/>
+                                    <constraint firstItem="g26-bZ-xfl" firstAttribute="centerX" secondItem="lgI-Zn-bYo" secondAttribute="centerX" id="nHR-yr-gIs"/>
+                                    <constraint firstItem="bfB-F5-hDB" firstAttribute="centerX" secondItem="lgI-Zn-bYo" secondAttribute="centerX" id="zhB-iP-8ge"/>
                                 </constraints>
                             </view>
                         </subviews>
