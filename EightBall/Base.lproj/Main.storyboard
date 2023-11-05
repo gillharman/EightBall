@@ -26,6 +26,15 @@
                                             <constraint firstAttribute="width" constant="300" id="gZ2-71-FKm"/>
                                         </constraints>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g26-bZ-xfl">
+                                        <rect key="frame" x="34" y="316" width="254" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Answer my &quot;Yes/No&quot; Question"/>
+                                        <connections>
+                                            <action selector="questionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iH-le-ScP"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
