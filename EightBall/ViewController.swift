@@ -40,6 +40,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func questionButtonPressed(_ sender: UIButton) {
+        let message = messages.randomElement()!
+        messageLabel.text = message
     }
 }
 
