@@ -38,9 +38,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         messageLabel.text = ""
     }
+    
+    var message: String = ""
+    var lastMessage: String = ""
 
     @IBAction func questionButtonPressed(_ sender: UIButton) {
-        let message = messages.randomElement()!
+        repeat {
+            message = messages.randomElement()!
+        } while lastMessage == message
+        
+        lastMessage = message
         messageLabel.text = message
     }
 }
